@@ -19,7 +19,6 @@ train_datagen = ImageDataGenerator(
     validation_split=0.2,
 )
 
-
 val_datagen = ImageDataGenerator(
     rescale=1./255,
     validation_split=0.2,
